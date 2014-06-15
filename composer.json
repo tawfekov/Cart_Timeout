@@ -1,0 +1,16 @@
+{
+    "name": "Tawfekov/Cart_Timeout",
+    "license": "MIT",
+    "type": "magento-module",
+    "description": "add custom timeout for Magento cart",
+    "homepage": "",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Tawfek Daghistani",
+            "email":"tawfekov@gmail.com"
+        }
+    ]
+}
