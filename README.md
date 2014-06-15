@@ -1,18 +1,18 @@
 Cart Timeout ( V 0.1.0 )
 ============
 
-** The Goal ** 
+**The Goal** 
 
 adds a custom timeout for Magento cart. 
 
-![alt text](https://github.com/tawfekov/Cart_Timeout/raw/master/preview/preview.png" Preview")
+![alt text](https://raw.githubusercontent.com/tawfekov/Cart_Timeout/master/preview/preview.png "Preview")
 
 
-***What is this ? ***
+***What is this ?***
 
 this is a magento module can be used to add custom life time for the customer's cart, so no customer can block the items from other client by adding them to his cart .
 
-*** Why I did it ? ***
+***Why I did it ?***
 
 by default magento came with default configuation with a days timeout to see go to :
 
@@ -21,13 +21,13 @@ by default magento came with default configuation with a days timeout to see go 
 you'll had a field called : ` Quote Lifetime (days)` and the minimum value of it is `1` day
 
 
-*** Installation :***
+***Installation :***
 
 Simply copy the `app` directory and place on you magento installtion folder . 
 
 
 
-*** How to use it ?? ***
+***How to use it ??***
 
 this module simply creates a block that can be placed every where you want in your theme , I like to put it on top of the website , yes every page of the website , so the customer can follow up his cart timeout.
 
@@ -49,7 +49,7 @@ That simple :)
 
 
 
-*** What would happened if the cart timed out ? ***
+***What would happened if the cart timed out ?***
 
 the following :
  - the `quote` object of that cart would be disbaled in the table `sales_flat_quote` : `is_active` will be `0` .
@@ -60,7 +60,7 @@ the following :
 
 
 
-*** Configuation ***
+***Configuation***
 
 this is very fist version of this module , the default value for it is `15` minutes , I'll imporve it in next version to be configured from magento `adminhtml` .
 
@@ -68,15 +68,16 @@ but for now you need to edit these classes :
 - `Tawfekov_CartTimeout_Block_Timer` : `$custom_lifetime`
 - `Tawfekov_CartTimeout_Model_Cron` : `$custom_lifetime`
 
-*** requirments ***
+***Requirments***
 
 it only require `Magebnto Cron` to run , I adivse you to use `Aoe_Scheduler` module becuase it will let you see a timeline for your crons   
 
 
-*** License :  ***
+***License :***
 
 This module is licensed under `MIT`License , which means its completey free to use . 
 
-*** Support :***
+***Support :***
 
 I will be happy to support this module under time avliablity.
+
